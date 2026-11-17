@@ -765,6 +765,7 @@ public sealed class PlayerGameOptionsSender(PlayerControl player) : GameOptionsS
             }
 
             Dazzler.SetDazzled(player, opt);
+            Rondoudou.SetBlindness(player, opt);
             Deathpact.SetDeathpactVision(player, opt);
 
             Spiritcaller.ReduceVision(opt, player);
