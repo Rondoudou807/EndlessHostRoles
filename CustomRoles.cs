@@ -106,6 +106,7 @@ public enum CustomRoles
     QuickShooter,
     Renegade,
     RiftMaker,
+    Rondoudou,
     Saboteur,
     Sapper,
     Scavenger,
