@@ -184,7 +184,7 @@ public static class ChatManager
         string originalMessage = message.Trim();
         message = message.ToLower().Trim();
 
-        if (!AmongUsClient.Instance.AmHost || !player.IsAlive() || Silencer.ForSilencer.Contains(player.PlayerId)) return;
+        if (!AmongUsClient.Instance.AmHost || !player.IsAlive() || Silencer.ForSilencer.Contains(player.PlayerId) || Rondoudou.IsSilenced(player.PlayerId)) return;
 
         int operate = message switch
         {
